@@ -1,15 +1,19 @@
 import java.util.Scanner;
 
-public class JavaStdinAndStdout1 {
+public class JavaStdinAndStdOut1 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int a = scan.nextInt();
-        int b = scan.nextInt();
-        int c = scan.nextInt();
+        /*
+        In this challenge, you must read  integers from stdin and then print them to stdout. Each integer must
+             be printed on a new line.
+         */
+        Scanner scanner = new Scanner(System.in);
+        int myInt1 = scanner.nextInt();
+        int myInt2 = scanner.nextInt();
+        int myInt3 = scanner.nextInt();
+        scanner.close();
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.print(c);
-
+        System.out.println(myInt1);
+        System.out.println(myInt2);
+        System.out.println(myInt3);
     }
 }
