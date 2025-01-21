@@ -11,7 +11,6 @@ public class SwapThreeNumbers {
         b = c;
         c = temp;
 
-        System.out.printf("%d %d %d", a, b, c);
-
+        System.out.println("After swapping: a = " + a + ", b = " + b + ", c = " + c);
     }
 }

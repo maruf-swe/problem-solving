@@ -8,7 +8,6 @@ public class SwapTwoNumbers {
         temp = a;
         a = b;
         b = temp;
-        System.out.printf("A value is %d and B value is %d", a, b);
-
+        System.out.println("After swapping: a = " + a + ", b = " + b);
     }
 }
