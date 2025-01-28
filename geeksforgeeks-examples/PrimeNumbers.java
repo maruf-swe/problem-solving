@@ -3,7 +3,7 @@ package com.example.basics;
 public class PrimeNumbers {
     public static void main(String[] args) {
 
-        int num = 13;
+        int num = 13; // you can use scanner class for user input
         boolean flag = false;
 
         if (num == 0 || num == 1) {
